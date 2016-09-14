@@ -1,0 +1,150 @@
+html, body {
+  font-family: "Oxygen", sans-serif;
+  font-weight: 300;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 970px;
+}
+
+
+/*Jumbotron - Header*/
+
+.jumbotron{
+	background-color: #000000;
+  height: 600px;
+  margin-bottom: 0px;
+}
+
+.jumbotron .login{
+	color: #fff;
+  text-decoration: none;
+  padding: 30px;
+
+}
+
+/*Supporting*/
+
+.supporting {
+	background-image: url(diagmonds_@2X.png);
+  background-size: 141px 142px;
+ 	padding-bottom: 80px;
+  text-align: center;
+}
+
+.supporting h2{
+	color: #0693FF;
+ 	margin-top: 90px;
+  margin-bottom: 10px;
+  font-size: 32px;
+ 	font-weight: 300;
+}
+
+.supporting p{
+	color: #fff;
+  margin-bottom: 45px;
+ 	font-size: 16px;
+}
+
+.supporting .thumbnail{
+	background: transparent;
+  border: none;
+  padding: 0;
+}
+
+/*Feature*/
+
+.feature {
+	background-image: url(https://s3.amazonaws.com/codecademy-content/projects/bolt-network/feature.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	text-align: center;
+	height: 380px;
+	padding: 100px 0 0 0;
+}
+
+.feature h2{
+	color: #0693FF;
+  margin-top: 55px;
+  font-size: 32px;
+ 	font-weight: 300;
+}
+
+.feature p{
+	color: #fff;
+ 	font-size: 18px;
+}
+
+/*Main*/
+
+.main{
+	text-align: center;
+  color: #fff;
+}
+
+.main h1{
+	margin-top: 80px;
+  margin-bottom: 40px;
+}
+
+form{
+	margin-top: 80px;
+}
+
+
+/*Footer*/
+.footer{
+	background-color: #000000;
+  height: 280px;
+}
+
+.footer ul{
+	list-style-type: none;
+  margin-left: -40px;
+  color: #0693FF;
+}
+
+.footer h3{
+	margin-top: 90px;
+  color: #fff;
+  font-size: 18px;
+}
+
+#search{
+	background: transparent;
+  border: 0px;
+  border-radius: 0;
+  border-bottom: 1px solid #fff;
+  color: #fff;
+  font-size: 18px;
+  margin: 0 20px;
+  width: 400px;
+}
+
+#search:hover{
+	border-bottom:1px solid #0393ff;
+}
+
+
+
+/*Button default*/
+.btn{
+	color: #0393FF;
+  text-decoration: none;
+  border: 1px solid #0393FF;
+  padding: 8px 20px;
+  border-radius: 2px;
+  background-color: transparent;
+}
+
+.btn:hover{
+	color: #fff;
+  text-decoration: none;
+  border: 1px solid #0393FF;
+  padding: 8px 20px;
+  border-radius: 2px;
+  background-color: #0393FF;
+}
